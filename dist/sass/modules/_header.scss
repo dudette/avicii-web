@@ -1,67 +1,44 @@
-// .header {
-// 	padding: 15px 0;
-// 	@include boxshadow(0px 5px 5px 1px rgba(0,0,0,.11));
-// 	.container {
-// 		display: flex;
-// 		justify-content: space-between;
-// 		align-items: center;
-// 		@include bp-small {
-// 			display: block;
-// 		}
-// 	}
-// 	a.header__logo {
-// 		flex-grow: 1;
-// 		&--small {
-// 			display: none;
-// 		}
-// 		@include bp-small {
-// 			&--small {
-// 				display: block;
-// 			}
-// 			&--large {
-// 				display: none;
-// 			}
-// 		}
-// 	}
-// 	nav.header__menu  {
-// 		flex-grow: 3;
-// 		@include bp-small {
-// 		    margin: 0 -15px -15px;
-// 			background: $color-accent;
-// 			padding: 10px 0;
-// 		}
-// 		ul {
-// 			list-style: none;
-// 			padding: 0;
-// 			margin: 0;
-// 			display: flex;
-// 			li {
-// 				flex-grow: 1;
-// 				text-align: right;
-// 				@include bp-small {
-// 					text-align: center;
-// 				}
-// 				a {
-// 					font-family: $font-family-heading;
-// 					font-size: scut-rem(17px);
-// 					color: #777777;
-// 					text-decoration: none;
-// 					@include bp-small {
-// 						font-size: scut-rem(15px);
-// 					}
-// 				}
-// 				&.active a {
-// 					color: #282828;
-// 				}
-// 			}
-// 		}
-// 		@include bp-small {
-// 			&.is-fixed{
-// 				position: fixed;
-// 				width: 100%;
-// 				top: 0;
-// 				z-index: 1;
-// 			}
-// 		}
-// 	}
-// }
+.header {
+    padding: 10px 16px;
+    //background:none;
+    color: #f1f1f1;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+.site-logo {
+    flex-grow: 1;
+}
+
+.header__menu {
+    flex-grow: 3;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        li {
+            flex-grow: 1;
+            a {
+                font-family: 'Roboto', Helvetica, sans-serif;
+                font-size: 1.0625rem;
+                color: white;
+                text-decoration: none;
+                text-transform: uppercase;
+                letter-spacing: 5px;
+            }
+        }
+    }
+}

@@ -9,38 +9,6 @@
 	],
 "creatorBuild": "31491",
 "files": {
-	"/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.gitattributes",
-		"oF": 0
-		},
-	"/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/.gitignore",
-		"oF": 0
-		},
-	"/.vscode/settings.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/.vscode/settings-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/.vscode/tasks.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/.vscode/tasks-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/acf-json/.gitkeep": {
 		"cB": 0,
 		"ft": 8192,
@@ -73,22 +41,6 @@
 		"oAP": "/application.php",
 		"oF": 0
 		},
-	"/application/modules/case_item.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/application/modules/case_item.php",
-		"oF": 0
-		},
-	"/application/modules/cta.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/application/modules/cta.php",
-		"oF": 0
-		},
 	"/application/modules/dj.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -105,44 +57,12 @@
 		"oAP": "/application/modules/foundation_text.php",
 		"oF": 0
 		},
-	"/application/modules/hero.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/application/modules/hero.php",
-		"oF": 0
-		},
-	"/application/modules/intro_text.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/application/modules/intro_text.php",
-		"oF": 0
-		},
-	"/application/modules/latest_projects.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/application/modules/latest_projects.php",
-		"oF": 0
-		},
 	"/application/modules/line_up.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/application/modules/line_up.php",
-		"oF": 0
-		},
-	"/application/modules/service.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/application/modules/service.php",
 		"oF": 0
 		},
 	"/dist/article.html": {
@@ -1632,7 +1552,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 588630893.10262895,
-	"displayValue": "Wordpress-Theme-master",
+	"displayValue": "avicii-web",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-rose",
 	"iconImageWasSetByUser": 0

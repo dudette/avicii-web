@@ -12,7 +12,6 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 </head>
-
 <body <?php body_class('no-js'); ?>>
 	<script>
 		document.body.className = document.body.className.replace(" no-js", " js");

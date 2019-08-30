@@ -1,15 +1,21 @@
 .btn {
-	display: inline-block;
-	padding: 12px 50px;
-	background-color: $color-light;
-	color: $color-base;
-	border: 1px solid $color-light;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	@include transition(all .5s ease);
-	&:hover {
-		background-color: $color-base;
-		color: $color-light;
-	}
+    display: inline-block;
+    padding: 12px 50px;
+    background-color: $color-light;
+    color: $color-base;
+    border: 1px solid $color-light;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    @include transition(all .5s ease);
+    &:hover {
+        background-color: $color-base;
+        color: $color-light;
+    }
+}
+
+//buttons
+.button {
+    background: #4999f7;
+    padding: 20px;
 }

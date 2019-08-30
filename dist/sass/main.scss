@@ -87,55 +87,6 @@ body {
     text-align: center;
 }
 
-.header {
-    padding: 10px 16px;
-    //background:none;
-    color: #f1f1f1;
-}
-
-.content {
-    padding: 16px;
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky+.content {
-    padding-top: 102px;
-}
-
-.site-logo {
-    flex-grow: 1;
-}
-
-.header__menu {
-    flex-grow: 3;
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        li {
-            flex-grow: 1;
-            a {
-                font-size: 1.0625rem;
-                color: white;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-        }
-    }
-}
-
-//buttons
-.button {
-    background: #4999f7;
-    padding: 10px;
-}
-
 //timer
 .timer {
     display: flex;
