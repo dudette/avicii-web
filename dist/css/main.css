@@ -76,7 +76,7 @@ p {
     padding: 0 120px; }
     @media (max-width: 767px) {
       .section .foundation__block {
-        padding: 0; } }
+        padding: 10px; } }
   .section .top_img,
   .section .foundation_img {
     margin: 0 auto;
