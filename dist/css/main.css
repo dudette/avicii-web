@@ -273,3 +273,27 @@ body {
     @media (max-width: 767px) {
       .cover img {
         display: none; } }
+
+.ripplelink {
+  margin: 0.2%;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.2s ease;
+  z-index: 0;
+  border-radius: 50%;
+  text-align: center; }
+
+.ink {
+  display: block;
+  position: absolute;
+  background: rgba(73, 153, 247, 0.5);
+  border-radius: 100%;
+  transform: scale(0); }
+
+.animate {
+  animation: ripple 0.65s linear; }
+
+@keyframes ripple {
+  100% {
+    opacity: 0;
+    transform: scale(2.5); } }

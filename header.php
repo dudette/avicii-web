@@ -31,9 +31,9 @@
 				<a class="site-logo" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logotyp.svg" alt="Avicii logotyp" width="109"></a>
 				<nav class="header__menu">
 					<ul>
-						<li><a href="#lineup">Lineup</a></li>
-						<li><a href="#foundation">Foundation</a></li>
-						<li><a class="button" href="https://www.ticketmaster.se/" target="_blank">Buy tickets</a></li>
+						<li><a class="ripplelink" href="#lineup">Lineup</a></li>
+						<li><a class="ripplelink" href="#foundation">Foundation</a></li>
+						<li><a class="button rippleink" href="https://www.ticketmaster.se/" target="_blank">Buy tickets</a></li>
 					<ul>
 				</nav>
 			</div>
