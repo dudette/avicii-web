@@ -38,9 +38,9 @@
 				</nav>
 			</div>
 		</header>
-<section class="cover">
-<img src="<?php echo get_template_directory_uri(); ?>/images/avicii_portrait3.png" alt="Avicii portrait">
-</section>
+		<section class="cover">
+		<img src="<?php echo get_template_directory_uri(); ?>/images/siluette.png" alt="Avicii siluette">
+		</section>
 		<section class="section section__top">
 			<div class="container">
 				<img class="top_img" src="<?php echo get_template_directory_uri(); ?>/images/avicii_tribute_concert.png" alt="Avicii tribute concert" width="350">
