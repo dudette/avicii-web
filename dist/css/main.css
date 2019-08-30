@@ -69,11 +69,14 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+    @media (max-width: 767px) {
+      .section.section__countdown {
+        top: 70%; } }
   .section .foundation__block {
     padding: 0 120px; }
     @media (max-width: 767px) {
       .section .foundation__block {
-        padding: 0 120px; } }
+        padding: 0; } }
   .section .top_img,
   .section .foundation_img {
     margin: 0 auto;
@@ -92,6 +95,9 @@ p {
   display: flex;
   margin: 0 auto;
   font-family: 'Roboto', Helvetica, sans-serif; }
+  @media (max-width: 767px) {
+    .timer {
+      display: block; } }
 
 .time_item {
   align-items: center;
@@ -108,7 +114,7 @@ p {
     .hours,
     .minutes,
     .seconds {
-      font-size: 4.125rem; } }
+      font-size: 1.125rem; } }
 
 .smalltext {
   font-size: 1.3rem;
