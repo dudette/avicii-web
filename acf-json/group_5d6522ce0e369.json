@@ -109,6 +109,35 @@
                     "min": "",
                     "max": ""
                 },
+                "layout_5d690bf36f98f": {
+                    "key": "layout_5d690bf36f98f",
+                    "name": "textbox",
+                    "label": "Textbox",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5d690c056f990",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "tabs": "all",
+                            "toolbar": "full",
+                            "media_upload": 1,
+                            "delay": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
                 "layout_5d6537752078a": {
                     "key": "layout_5d6537752078a",
                     "name": "foundation_text",
@@ -190,5 +219,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1567009422
+    "modified": 1567165464
 }

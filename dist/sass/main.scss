@@ -12,6 +12,10 @@
 @import "modules/footer";
 @import "modules/artists";
 @import "modules/svg";
+html {
+    scroll-behavior: smooth;
+}
+
 #videobg {
     position: fixed;
     right: 0;

@@ -65,6 +65,14 @@
 		"oAP": "/application/modules/line_up.php",
 		"oF": 0
 		},
+	"/application/modules/textbox.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/application/modules/textbox.php",
+		"oF": 0
+		},
 	"/dist/article.html": {
 		"cB": 0,
 		"ft": 8192,

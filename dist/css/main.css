@@ -193,6 +193,9 @@ p {
   100% {
     transform: scale(0.4); } }
 
+html {
+  scroll-behavior: smooth; }
+
 #videobg {
   position: fixed;
   right: 0;
