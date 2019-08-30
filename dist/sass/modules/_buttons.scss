@@ -18,4 +18,8 @@
 .button {
     background: #4999f7;
     padding: 20px;
+    @include transition(all .5s ease);
+    &:hover {
+        background-color: #2d81e0;
+    }
 }
