@@ -109,39 +109,6 @@
 		"oAP": "/dist/images/avicii.mp4",
 		"oF": 0
 		},
-	"/dist/images/avicii_portrait.png": {
-		"ft": 32768,
-		"iS": 3990428,
-		"oA": 0,
-		"oAP": "/dist/images/avicii_portrait.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/images/avicii_portrait3.png": {
-		"ft": 32768,
-		"iS": 593089,
-		"oA": 0,
-		"oAP": "/dist/images/avicii_portrait3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/dist/images/avicii_portrait_2.png": {
-		"ft": 32768,
-		"iS": 229268,
-		"oA": 0,
-		"oAP": "/dist/images/avicii_portrait_2.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"/dist/images/avicii_tribute_concert.png": {
 		"ft": 32768,
 		"iS": 29180,
@@ -174,64 +141,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/dist/images/modarbygg-logo-side-light.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/images/modarbygg-logo-side-light.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/dist/images/modarbygg-logo-side.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/images/modarbygg-logo-side.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/dist/images/modarbygg-logo-under-light.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/images/modarbygg-logo-under-light.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/dist/images/nybygge.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/images/nybygge.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/dist/images/renovering.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/images/renovering.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/dist/images/sample.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/images/sample.mp4",
-		"oF": 0
-		},
 	"/dist/images/siluette.png": {
 		"ft": 32768,
 		"iS": 593606,
@@ -254,6 +163,14 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/dist/images/smoke.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/images/smoke.mp4",
+		"oF": 0
+		},
 	"/dist/images/top_img.png": {
 		"ft": 32768,
 		"iS": 294222,
@@ -264,16 +181,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"/dist/images/utbyggnad.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/dist/images/utbyggnad.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
 		},
 	"/dist/images/video_poster.png": {
 		"ft": 32768,
@@ -1288,28 +1195,6 @@
 		"oAP": "/images/avicii.mp4",
 		"oF": 0
 		},
-	"/images/avicii_portrait.png": {
-		"ft": 32768,
-		"iS": 505796,
-		"oA": 0,
-		"oAP": "/images/avicii_portrait.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/avicii_portrait3.png": {
-		"ft": 32768,
-		"iS": 593089,
-		"oA": 0,
-		"oAP": "/images/avicii_portrait3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/avicii_tribute_concert.png": {
 		"ft": 32768,
 		"iS": 29180,
@@ -1342,14 +1227,6 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/sample.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/images/sample.mp4",
-		"oF": 0
-		},
 	"/images/siluette.png": {
 		"ft": 32768,
 		"iS": 593606,
@@ -1371,6 +1248,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/images/smoke.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/smoke.mp4",
+		"oF": 0
 		},
 	"/images/top_img.png": {
 		"ft": 32768,

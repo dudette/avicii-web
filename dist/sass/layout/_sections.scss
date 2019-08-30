@@ -33,3 +33,29 @@
 #references .container {
     position: relative;
 }
+
+//countdown
+.timer {
+    display: flex;
+    margin: 0 auto;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.time_item {
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+    font-size: 5.125rem;
+}
+
+.smalltext {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}

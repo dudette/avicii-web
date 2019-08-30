@@ -23,7 +23,7 @@
 
 		<div class="fullscreen-bg">
 			<video autoplay muted loop poster="<?php echo get_template_directory_uri(); ?>/images/video_poster.png" class="fullscreen-bg__video">
-				<source src="<?php echo get_template_directory_uri(); ?>/images/avicii.mp4" alt="smoke video avicii" type="video/mp4">
+				<source src="<?php echo get_template_directory_uri(); ?>/images/smoke.mp4" alt="smoke video avicii" type="video/mp4">
 			</video>
 		</div>
 		<header class="header" id="myHeader">
@@ -33,8 +33,8 @@
 					<ul>
 						<li><a href="#lineup">Lineup</a></li>
 						<li><a href="#foundation">Foundation</a></li>
-						<li><a class="button" href="#services">Buy tickets</a></li>
-						<ul>
+						<li><a class="button" href="https://www.ticketmaster.se/" target="_blank">Buy tickets</a></li>
+					<ul>
 				</nav>
 			</div>
 		</header>
@@ -67,7 +67,6 @@
 					</div>
 				</div>
 			</div>
-
 		</section>
 
 

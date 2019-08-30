@@ -87,31 +87,6 @@ body {
     text-align: center;
 }
 
-//timer
-.timer {
-    display: flex;
-    margin: 0 auto;
-}
-
-.time_item {
-    align-items: center;
-    padding: 25px;
-    text-align: center;
-}
-
-.days,
-.hours,
-.minutes,
-.seconds {
-    font-size: 5.125rem;
-}
-
-.smalltext {
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
 //foundation text
 .foundation_text {
     padding: 45px;
