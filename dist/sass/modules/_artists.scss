@@ -1,0 +1,22 @@
+.lineup__heading {
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.line-up {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.artist_item {
+    align-items: center;
+    padding: 35px;
+    text-align: center;
+}
+
+.artist_name {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}

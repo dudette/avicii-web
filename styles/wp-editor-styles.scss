@@ -1,0 +1,26 @@
+@import "main.scss";
+
+
+
+/* EDITOR STYLES */
+
+body {
+  background: #fff;
+  margin: 20px;
+  padding: 0;
+  overflow: auto;
+}
+html body {
+  display: block;
+  height: auto;
+  width: auto;
+}
+.table tbody > tr > th,
+.table tbody > tr > td {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.wpview-wrap {
+  max-width: 600px;
+}

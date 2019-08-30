@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'proximanova-reg';
+  src: url("../fonts/ProximaNovaReg.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'avenir-med';
+  src: url("../fonts/AvenirMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'avenir-bold';
+  src: url("../fonts/AvenirBlack.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: "proximanova-reg", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  color: #4A4A4A;
+  counter-reset: number-counter; }
+
+h1, h2, h3 {
+  font-family: "avenir-med", Arial, sans-serif;
+  line-height: 1.25; }
+
+h1 {
+  font-size: 1.625rem; }
+
+h2 {
+  font-size: 1.625rem; }
+
+h3 {
+  font-size: 1.125rem; }
+
+h4 {
+  font-size: 0.875rem; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.is-left {
+  float: left; }
+
+.is-right {
+  float: right; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.cta {
+  background-color: #003164;
+  padding: 30px 0;
+  color: #F1F1F1; }
+
+.cta .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.cta h2 {
+  margin: 0; }
+
+.section {
+  padding: 60px 0; }
+
+.section.section--grey {
+  background-color: #EAEAEA; }
+
+.section h2 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #C7C7C7; }
+
+.header {
+  padding: 15px 0; }
+
+.header ul.header__menu {
+  list-style: none; }
+
+.header ul.header__menu li {
+  display: inline;
+  margin: 0 30px; }
+
+.header ul.header__menu li a {
+  font-family: "avenir-med", Arial, sans-serif; }
+
+.header ul.header__menu li.active a {
+  font-family: "avenir-bold", Arial, sans-serif; }
+
+.btn {
+  padding: 15px 50px;
+  background-color: #F1F1F1;
+  color: #003164;
+  border: 1px solid #F1F1F1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.btn:hover {
+  background-color: #003164;
+  color: #F1F1F1; }

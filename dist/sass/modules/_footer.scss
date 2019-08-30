@@ -1,0 +1,27 @@
+// footer {
+// 	background-color: #2B2A2A;
+// 	padding: 60px 0;
+// 	color: $color-light;
+// 	a {
+// 		color: $color-light;
+// 	}
+// 	.container {
+// 		display: flex;
+// 		@include bp-small {
+// 			display: block;
+// 		}
+// 	}
+// 	.footer__logo {
+// 		flex-grow: 1;
+// 		@include bp-small {
+// 			margin-bottom: 30px;
+// 		}
+// 	}
+// 	.footer__contact {
+// 		flex-grow: 2;
+// 	}
+// 	ul {
+// 		list-style: none;
+// 		padding: 0;
+// 	}
+// }

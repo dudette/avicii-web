@@ -1,0 +1,53 @@
+body {
+    font-family: $font-family-base;
+    font-size: scut-rem(16px);
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    color: $color-text;
+    counter-reset: number-counter;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $font-family-heading;
+    line-height: 1.25
+}
+
+h1 {
+    font-size: scut-rem(26px);
+}
+
+h2 {
+    font-size: scut-rem(26px);
+}
+
+h3 {
+    font-size: scut-rem(18px);
+}
+
+h4 {
+    font-size: scut-rem(16px);
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 15px;
+    @include bp-large {
+        max-width: 750px;
+    }
+}
+
+.fb {
+    display: flex;
+}
+
+p {
+    color: $color-text;
+}
