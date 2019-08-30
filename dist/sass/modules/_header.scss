@@ -38,6 +38,9 @@
                 text-decoration: none;
                 text-transform: uppercase;
                 letter-spacing: 5px;
+                @media (max-width: 767px) {
+                    font-size: 0.0625rem;
+                }
             }
         }
     }

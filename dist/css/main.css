@@ -71,6 +71,9 @@ p {
     transform: translate(-50%, -50%); }
   .section .foundation__block {
     padding: 0 120px; }
+    @media (max-width: 767px) {
+      .section .foundation__block {
+        padding: 0 120px; } }
   .section .top_img,
   .section .foundation_img {
     margin: 0 auto;
@@ -149,6 +152,9 @@ p {
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 5px; }
+        @media (max-width: 767px) {
+          .header__menu ul li a {
+            font-size: 0.0625rem; } }
 
 .btn {
   display: inline-block;
