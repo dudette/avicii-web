@@ -1,77 +1,99 @@
-window.onscroll = function() { myFunction() };
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
 
-function myFunction() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-    } else {
-        header.classList.remove("sticky");
-    }
-}
-//timer countdown
-function getTimeRemaining(endtime) {
-    var t = Date.parse(endtime) - Date.parse(new Date());
-    var seconds = Math.floor((t / 1000) % 60);
-    var minutes = Math.floor((t / 1000 / 60) % 60);
-    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-    var days = Math.floor(t / (1000 * 60 * 60 * 24));
-    return {
-        'total': t,
-        'days': days,
-        'hours': hours,
-        'minutes': minutes,
-        'seconds': seconds
-    };
-}
+          // Store hash
+          var hash = this.hash;
 
-function initializeClock(id, endtime) {
-    var clock = document.getElementById(id);
-    var daysSpan = clock.querySelector('.days');
-    var hoursSpan = clock.querySelector('.hours');
-    var minutesSpan = clock.querySelector('.minutes');
-    var secondsSpan = clock.querySelector('.seconds');
+          // Using jQuery's animate() method to add smooth page scroll
+          $('html').animate({
+              scrollTop: $(hash).offset().top
+          }, 800, function() {
 
-    function updateClock() {
-        var t = getTimeRemaining(endtime);
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+          });
+      }
+  });
 
-        daysSpan.innerHTML = t.days;
-        hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-        minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-        secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+  window.onscroll = function() { myFunction() };
 
-        if (t.total <= 0) {
-            clearInterval(timeinterval);
-        }
-    }
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
 
-    updateClock();
-    var timeinterval = setInterval(updateClock, 1000);
-}
+  function myFunction() {
+      if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+      } else {
+          header.classList.remove("sticky");
+      }
+  }
+  //timer countdown
+  function getTimeRemaining(endtime) {
+      var t = Date.parse(endtime) - Date.parse(new Date());
+      var seconds = Math.floor((t / 1000) % 60);
+      var minutes = Math.floor((t / 1000 / 60) % 60);
+      var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+      var days = Math.floor(t / (1000 * 60 * 60 * 24));
+      return {
+          'total': t,
+          'days': days,
+          'hours': hours,
+          'minutes': minutes,
+          'seconds': seconds
+      };
+  }
 
-var deadline = 'December 5 2019 16:00:00';
-initializeClock('clockdiv', deadline);
+  function initializeClock(id, endtime) {
+      var clock = document.getElementById(id);
+      var daysSpan = clock.querySelector('.days');
+      var hoursSpan = clock.querySelector('.hours');
+      var minutesSpan = clock.querySelector('.minutes');
+      var secondsSpan = clock.querySelector('.seconds');
 
-//Ripple
-var links = document.querySelectorAll('.ripplelink');
+      function updateClock() {
+          var t = getTimeRemaining(endtime);
 
-for (var i = 0, len = links.length; i < len; i++) {
-    links[i].addEventListener('click', function(e) {
-        var targetEl = e.target;
-        var inkEl = targetEl.querySelector('.ink');
+          daysSpan.innerHTML = t.days;
+          hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+          minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+          secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
-        if (inkEl) {
-            inkEl.classList.remove('animate');
-        } else {
-            inkEl = document.createElement('span');
-            inkEl.classList.add('ink');
-            inkEl.style.width = inkEl.style.height = Math.max(targetEl.offsetWidth, targetEl.offsetHeight) + 'px';
-            targetEl.appendChild(inkEl);
-        }
+          if (t.total <= 0) {
+              clearInterval(timeinterval);
+          }
+      }
 
-        inkEl.style.left = (e.offsetX - inkEl.offsetWidth / 2) + 'px';
-        inkEl.style.top = (e.offsetY - inkEl.offsetHeight / 2) + 'px';
-        inkEl.classList.add('animate');
-    }, false);
-}
+      updateClock();
+      var timeinterval = setInterval(updateClock, 1000);
+  }
+
+  var deadline = 'December 5 2019 16:00:00';
+  initializeClock('clockdiv', deadline);
+
+  //Ripple
+  var links = document.querySelectorAll('.ripplelink');
+
+  for (var i = 0, len = links.length; i < len; i++) {
+      links[i].addEventListener('click', function(e) {
+          var targetEl = e.target;
+          var inkEl = targetEl.querySelector('.ink');
+
+          if (inkEl) {
+              inkEl.classList.remove('animate');
+          } else {
+              inkEl = document.createElement('span');
+              inkEl.classList.add('ink');
+              inkEl.style.width = inkEl.style.height = Math.max(targetEl.offsetWidth, targetEl.offsetHeight) + 'px';
+              targetEl.appendChild(inkEl);
+          }
+
+          inkEl.style.left = (e.offsetX - inkEl.offsetWidth / 2) + 'px';
+          inkEl.style.top = (e.offsetY - inkEl.offsetHeight / 2) + 'px';
+          inkEl.classList.add('animate');
+      }, false);
+  }

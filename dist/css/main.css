@@ -100,11 +100,20 @@ p {
 .minutes,
 .seconds {
   font-size: 5.125rem; }
+  @media (max-width: 767px) {
+    .days,
+    .hours,
+    .minutes,
+    .seconds {
+      font-size: 4.125rem; } }
 
 .smalltext {
   font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 8px; }
+  @media (max-width: 767px) {
+    .smalltext {
+      font-size: 0.8rem; } }
 
 .header {
   padding: 10px 16px;
