@@ -2,6 +2,9 @@
     padding: 10px 16px;
     //background:none;
     color: #f1f1f1;
+    @media (max-width: 767px) {
+        padding: 0;
+    }
 }
 
 .content {

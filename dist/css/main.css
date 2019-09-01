@@ -73,7 +73,7 @@ p {
     @media (max-width: 767px) {
       .section.section__countdown {
         top: 70%;
-        z-index: -5; } }
+        z-index: -1; } }
   .section .foundation__block {
     padding: 0 120px; }
     @media (max-width: 767px) {
@@ -136,6 +136,9 @@ p {
 .header {
   padding: 10px 16px;
   color: #f1f1f1; }
+  @media (max-width: 767px) {
+    .header {
+      padding: 0; } }
 
 .content {
   padding: 16px; }
@@ -355,7 +358,11 @@ body {
   text-align: center; }
 
 #myLinks a {
-  text-align: center; }
+  text-align: center;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 8px; }
   #myLinks a:hover {
     background-color: #4999f7;
     color: white; }

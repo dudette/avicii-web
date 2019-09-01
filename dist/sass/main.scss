@@ -165,6 +165,10 @@ body {
 
 #myLinks a {
     text-align: center;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
     &:hover {
         background-color: #4999f7;
         color: white;
