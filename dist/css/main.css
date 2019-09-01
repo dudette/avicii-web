@@ -63,20 +63,29 @@ p {
     position: absolute;
     top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    z-index: -1; }
   .section.section__countdown {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%); }
     @media (max-width: 767px) {
       .section.section__countdown {
-        top: 70%; } }
+        top: 70%;
+        z-index: -5; } }
   .section .foundation__block {
     padding: 0 120px; }
     @media (max-width: 767px) {
       .section .foundation__block {
         padding: 10px; } }
+  .section .section__textbox #lineup {
+    max-width: 100%;
+    height: auto; }
+    @media (max-width: 767px) {
+      .section .section__textbox #lineup {
+        max-width: 100 .section .section__textbox #lineup;
+        height: auto; } }
   .section .top_img,
   .section .foundation_img {
     margin: 0 auto;
@@ -141,9 +150,15 @@ p {
 
 .site-logo {
   flex-grow: 1; }
+  @media (max-width: 767px) {
+    .site-logo {
+      display: none; } }
 
 .header__menu {
   flex-grow: 3; }
+  @media (max-width: 767px) {
+    .header__menu {
+      display: none; } }
   .header__menu ul {
     list-style: none;
     padding: 0;
@@ -323,3 +338,70 @@ body {
   100% {
     opacity: 0;
     transform: scale(2.5); } }
+
+.mobile-container {
+  flex-grow: 1; }
+  @media (min-width: 767px) {
+    .mobile-container {
+      display: none; } }
+
+.mobile__nav {
+  overflow: hidden;
+  position: relative; }
+
+.mobile__nav #myLinks {
+  display: none;
+  background: gray;
+  text-align: center; }
+
+#myLinks a {
+  text-align: center; }
+  #myLinks a:hover {
+    background-color: #4999f7;
+    color: white; }
+
+.mobile__nav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: inline-block;
+  vertical-align: middle; }
+
+.mobile__nav a.mobile__icon {
+  float: right; }
+
+.active {
+  background-color: #4CAF50;
+  color: white; }
+
+.menu-mobile__lines {
+  margin-top: 27px;
+  width: 35px;
+  height: 6px;
+  display: block;
+  background: #4999f7;
+  border-radius: 2px;
+  padding: 0;
+  position: relative;
+  transition: .3s; }
+  .menu-mobile__lines:hover {
+    background: #2d81e0; }
+  .menu-mobile__lines:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: inherit;
+    width: inherit;
+    height: inherit;
+    top: -11px;
+    border-radius: inherit; }
+  .menu-mobile__lines:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background: inherit;
+    width: inherit;
+    height: inherit;
+    bottom: -11px;
+    border-radius: inherit; }

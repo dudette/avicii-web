@@ -20,10 +20,16 @@
 
 .site-logo {
     flex-grow: 1;
+    @media (max-width: 767px) {
+        display: none;
+    }
 }
 
 .header__menu {
     flex-grow: 3;
+    @media (max-width: 767px) {
+        display: none;
+    }
     ul {
         list-style: none;
         padding: 0;

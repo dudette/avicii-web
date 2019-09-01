@@ -138,3 +138,88 @@ body {
         transform: scale(2.5);
     }
 }
+
+.mobile-container {
+    // max-width: 480px;
+    // margin: auto;
+    // background-color: #555;
+    // height: 500px;
+    // color: white;
+    // border-radius: 10px;
+    flex-grow: 1;
+    @media (min-width: 767px) {
+        display: none;
+    }
+}
+
+.mobile__nav {
+    overflow: hidden;
+    position: relative;
+}
+
+.mobile__nav #myLinks {
+    display: none;
+    background: gray;
+    text-align: center;
+}
+
+#myLinks a {
+    text-align: center;
+    &:hover {
+        background-color: #4999f7;
+        color: white;
+    }
+}
+
+.mobile__nav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mobile__nav a.mobile__icon {
+    float: right;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.menu-mobile__lines {
+    margin-top: 27px;
+    width: 35px;
+    height: 6px;
+    display: block;
+    background: #4999f7;
+    border-radius: 2px;
+    padding: 0;
+    position: relative;
+    transition: .3s;
+    &:hover {
+        background: #2d81e0;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        background: inherit;
+        width: inherit;
+        height: inherit;
+        top: -11px;
+        border-radius: inherit;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        display: block;
+        background: inherit;
+        width: inherit;
+        height: inherit;
+        bottom: -11px;
+        border-radius: inherit;
+    }
+}

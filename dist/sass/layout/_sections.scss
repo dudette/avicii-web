@@ -8,20 +8,32 @@
         top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
+        z-index: -1;
     }
     &.section__countdown {
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         @media (max-width: 767px) {
             top: 70%;
+            z-index: -5;
         }
     }
     .foundation__block {
         padding: 0 120px;
         @media (max-width: 767px) {
             padding: 10px;
+        }
+    }
+    .section__textbox {
+        #lineup {
+            max-width: 100%;
+            height: auto;
+            @media (max-width: 767px) {
+                max-width: 100&;
+                height: auto;
+            }
         }
     }
     .top_img,

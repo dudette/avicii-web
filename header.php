@@ -12,6 +12,7 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 </head>
+
 <body <?php body_class('no-js'); ?>>
 	<script>
 		document.body.className = document.body.className.replace(" no-js", " js");
@@ -34,12 +35,42 @@
 						<li><a class="ripplelink" href="#lineup">Lineup</a></li>
 						<li><a class="ripplelink" href="#foundation">Foundation</a></li>
 						<li><a class="button rippleink" href="https://www.ticketmaster.se/" target="_blank">Buy tickets</a></li>
-					<ul>
+						<ul>
 				</nav>
+
+				<!-- Simulate a smartphone / tablet -->
+				<div class="mobile-container">
+
+					<!-- Top Navigation Menu -->
+					<div class="mobile__nav">
+					<a class="site-logo" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logotyp.svg" alt="Avicii logotyp" width="109"></a>
+					<a href="javascript:void(0);" class="mobile__icon" onclick="mobileFunction()">
+						<span class="menu-mobile__lines"></span>
+					</a>
+					<div id="myLinks">
+						<a  href="#lineup">Lineup</a>
+						<a  href="#foundation">Foundation</a>
+						<a class="button" href="https://www.ticketmaster.se/" target="_blank">Buy tickets</a>
+					</div>
+				</div>
+					<!-- End smartphone / tablet look -->
+
+					<script>
+						//Menu mobile
+						function mobileFunction() {
+							var x = document.getElementById("myLinks");
+							if (x.style.display === "block") {
+								x.style.display = "none";
+							} else {
+								x.style.display = "block";
+							}
+						}
+					</script>
+				</div>
 			</div>
 		</header>
 		<section class="cover">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/siluette.png" alt="Avicii siluette">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/siluette.png" alt="Avicii siluette">
 		</section>
 		<section class="section section__top">
 			<div class="container">
