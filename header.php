@@ -43,7 +43,7 @@
 
 					<!-- Top Navigation Menu -->
 					<div class="mobile__nav">
-					<a class="site-logo" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logotyp.svg" alt="Avicii logotyp" width="109"></a>
+					<a class="site-logo" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logotyp.svg" alt="Avicii logotyp" width="85"></a>
 					<a href="javascript:void(0);" class="mobile__icon" onclick="mobileFunction()">
 						<span class="menu-mobile__lines"></span>
 					</a>

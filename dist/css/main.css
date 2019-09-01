@@ -111,8 +111,7 @@ p {
   @media (max-width: 767px) {
     .timer {
       display: block;
-      float: left;
-      padding: 35px 10px; } }
+      float: left; } }
 
 .time_item {
   align-items: center;
@@ -136,7 +135,7 @@ p {
     .hours,
     .minutes,
     .seconds {
-      font-size: 2.125rem; } }
+      font-size: 34px; } }
 
 .smalltext {
   font-size: 1.3rem;
@@ -400,7 +399,7 @@ body {
   color: white; }
 
 .menu-mobile__lines {
-  margin-top: 27px;
+  margin-top: 20px;
   width: 35px;
   height: 6px;
   display: block;
