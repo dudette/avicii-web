@@ -72,8 +72,8 @@ p {
     transform: translate(-50%, -50%); }
     @media (max-width: 767px) {
       .section.section__countdown {
-        top: 70%;
-        z-index: -1; } }
+        position: inherit;
+        transform: none; } }
   .section .foundation__block {
     padding: 0 120px; }
     @media (max-width: 767px) {
@@ -101,17 +101,24 @@ p {
   position: relative; }
 
 .timer {
-  display: flex;
+  display: block;
+  width: 100%;
   margin: 0 auto;
   font-family: 'Roboto', Helvetica, sans-serif; }
   @media (max-width: 767px) {
     .timer {
-      display: block; } }
+      display: block;
+      width: 100%; } }
 
 .time_item {
   align-items: center;
   padding: 25px;
   text-align: center; }
+  @media (max-width: 767px) {
+    .time_item {
+      width: 50%;
+      float: left;
+      padding: 35px 0px; } }
 
 .days,
 .hours,
@@ -123,7 +130,7 @@ p {
     .hours,
     .minutes,
     .seconds {
-      font-size: 1.125rem; } }
+      font-size: 3.125rem; } }
 
 .smalltext {
   font-size: 1.3rem;
@@ -310,6 +317,9 @@ body {
   height: 100vh;
   position: relative;
   z-index: -4; }
+  @media (max-width: 767px) {
+    .cover {
+      height: 150px; } }
   .cover img {
     position: absolute;
     left: 15%;

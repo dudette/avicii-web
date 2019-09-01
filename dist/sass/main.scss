@@ -99,6 +99,9 @@ body {
     height: 100vh;
     position: relative;
     z-index: -4;
+    @media (max-width: 767px) {
+        height: 150px;
+    }
     img {
         position: absolute;
         left: 15%;
