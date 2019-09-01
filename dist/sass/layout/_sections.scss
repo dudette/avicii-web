@@ -9,6 +9,10 @@
         left: 50%;
         transform: translate(-50%, -50%);
         z-index: -1;
+        @media (max-width: 767px) {
+            position: inherit;
+            transform: none;
+        }
     }
     &.section__countdown {
         position: absolute;

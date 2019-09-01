@@ -65,6 +65,10 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1; }
+    @media (max-width: 767px) {
+      .section.section__top {
+        position: inherit;
+        transform: none; } }
   .section.section__countdown {
     position: absolute;
     top: 60%;
@@ -322,7 +326,7 @@ body {
   z-index: -4; }
   @media (max-width: 767px) {
     .cover {
-      height: 150px; } }
+      height: 0; } }
   .cover img {
     position: absolute;
     left: 15%;
