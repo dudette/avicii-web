@@ -57,20 +57,22 @@
 
 //countdown
 .timer {
-    display: block;
-    width: 100%;
+    display: flex;
     margin: 0 auto;
     font-family: 'Roboto', Helvetica, sans-serif;
     @media (max-width: 767px) {
         display: block;
-        width: 100%;
+        float: left;
+        padding: 35px 10px;
     }
 }
 
 .time_item {
     align-items: center;
-    padding: 25px;
+    padding: 25px 10px;
     text-align: center;
+    float: left;
+    padding: 35px 10px;
     @media (max-width: 767px) {
         width: 19%;
         float: left;
@@ -84,7 +86,7 @@
 .seconds {
     font-size: 5.125rem;
     @media (max-width: 767px) {
-        font-size: 14px;
+        font-size: 2.125rem;
     }
 }
 
