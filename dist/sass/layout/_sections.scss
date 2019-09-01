@@ -72,9 +72,9 @@
     padding: 25px;
     text-align: center;
     @media (max-width: 767px) {
-        width: 50%;
+        width: 19%;
         float: left;
-        padding: 35px 0px;
+        padding: 35px 10px;
     }
 }
 
@@ -84,7 +84,7 @@
 .seconds {
     font-size: 5.125rem;
     @media (max-width: 767px) {
-        font-size: 3.125rem;
+        font-size: 14px;
     }
 }
 
@@ -93,6 +93,7 @@
     text-transform: uppercase;
     letter-spacing: 8px;
     @media (max-width: 767px) {
-        font-size: 0.8rem;
+        font-size: 10px;
+        letter-spacing: 5px;
     }
 }

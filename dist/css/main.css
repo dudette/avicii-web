@@ -116,9 +116,9 @@ p {
   text-align: center; }
   @media (max-width: 767px) {
     .time_item {
-      width: 50%;
+      width: 19%;
       float: left;
-      padding: 35px 0px; } }
+      padding: 35px 10px; } }
 
 .days,
 .hours,
@@ -130,7 +130,7 @@ p {
     .hours,
     .minutes,
     .seconds {
-      font-size: 3.125rem; } }
+      font-size: 14px; } }
 
 .smalltext {
   font-size: 1.3rem;
@@ -138,7 +138,8 @@ p {
   letter-spacing: 8px; }
   @media (max-width: 767px) {
     .smalltext {
-      font-size: 0.8rem; } }
+      font-size: 10px;
+      letter-spacing: 5px; } }
 
 .header {
   padding: 10px 16px;
