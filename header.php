@@ -10,7 +10,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/main.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/dist/js/main.js" ></script>
 	<?php wp_head(); ?>
 </head>
 
