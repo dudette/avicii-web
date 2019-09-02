@@ -26,6 +26,8 @@
     }
     .foundation__block {
         padding: 0 120px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
         @media (max-width: 767px) {
             padding: 10px;
         }

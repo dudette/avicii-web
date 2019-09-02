@@ -79,7 +79,9 @@ p {
         position: inherit;
         transform: none; } }
   .section .foundation__block {
-    padding: 0 120px; }
+    padding: 0 120px;
+    text-transform: uppercase;
+    letter-spacing: 4px; }
     @media (max-width: 767px) {
       .section .foundation__block {
         padding: 10px; } }

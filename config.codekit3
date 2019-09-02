@@ -128,17 +128,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/dist/images/foundation_icon.png": {
-		"ft": 32768,
-		"iS": 6765,
-		"oA": 0,
-		"oAP": "/dist/images/foundation_icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/dist/images/logotyp.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1198,17 +1187,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/foundation_icon.png": {
-		"ft": 32768,
-		"iS": 6765,
-		"oA": 0,
-		"oAP": "/images/foundation_icon.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
