@@ -1,7 +1,7 @@
 <?php
 
-force_login_to_site();
-show_admin_bar(true);
+//force_login_to_site();
+//show_admin_bar(true);
 
 
 

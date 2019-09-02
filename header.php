@@ -11,6 +11,15 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/dist/css/main.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146933727-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146933727-2');
+</script>
 </head>
 
 <body <?php body_class('no-js'); ?>>

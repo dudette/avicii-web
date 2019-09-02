@@ -128,6 +128,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/dist/images/footer.png": {
+		"ft": 32768,
+		"iS": 65241,
+		"oA": 0,
+		"oAP": "/dist/images/footer.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/foundation_icon.png": {
+		"ft": 32768,
+		"iS": 16881,
+		"oA": 0,
+		"oAP": "/dist/images/foundation_icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/logotyp.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -197,6 +219,17 @@
 		"oA": 0,
 		"oAP": "/dist/index.html",
 		"oF": 0
+		},
+	"/dist/js/main-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dist/js/main-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dist/js/main.js": {
 		"bF": 0,
@@ -1184,6 +1217,28 @@
 		"iS": 29180,
 		"oA": 0,
 		"oAP": "/images/avicii_tribute_concert.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/footer.png": {
+		"ft": 32768,
+		"iS": 34128,
+		"oA": 0,
+		"oAP": "/images/footer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/foundation_icon.png": {
+		"ft": 32768,
+		"iS": 16881,
+		"oA": 0,
+		"oAP": "/images/foundation_icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
