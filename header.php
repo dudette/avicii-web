@@ -60,9 +60,9 @@
 	<?php if (is_page('start')) : ?>
 
 		<div class="fullscreen-bg">
-			<video autoplay muted loop poster="<?php echo get_template_directory_uri(); ?>/images/video_poster.png" class="fullscreen-bg__video">
+			<!-- <video autoplay muted loop poster="<?php echo get_template_directory_uri(); ?>/images/video_poster.png" class="fullscreen-bg__video">
 				<source src="<?php echo get_template_directory_uri(); ?>/images/smoke.mp4" alt="smoke video avicii" type="video/mp4">
-			</video>
+			</video> -->
 		</div>
 		<header class="header" id="myHeader">
 			<div class="container">
