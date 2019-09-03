@@ -43,7 +43,7 @@
 					<ul>
 						<li><a class="ripplelink" href="#lineup">Lineup</a></li>
 						<li><a class="ripplelink" href="#foundation">Foundation</a></li>
-						<li><a class="button rippleink" href="https://www.ticketmaster.se/" target="_blank">Buy tickets</a></li>
+						<li><a class="button rippleink" href="http://www.ticketmaster.se/event/557215" target="_blank">Buy tickets</a></li>
 						<ul>
 				</nav>
 
@@ -59,7 +59,7 @@
 					<div id="myLinks">
 						<a  href="#lineup">Lineup</a>
 						<a  href="#foundation">Foundation</a>
-						<a class="button" href="https://www.ticketmaster.se/" target="_blank">Buy tickets</a>
+						<a class="button" href="http://www.ticketmaster.se/event/557215" target="_blank">Buy tickets</a>
 					</div>
 				</div>
 					<!-- End smartphone / tablet look -->
