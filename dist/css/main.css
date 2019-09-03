@@ -69,9 +69,18 @@ p {
       .section.section__top {
         position: inherit;
         transform: none; } }
+  .section.section__announcement {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    @media (max-width: 767px) {
+      .section.section__announcement {
+        position: inherit;
+        transform: none; } }
   .section.section__countdown {
     position: absolute;
-    top: 60%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%); }
     @media (max-width: 767px) {

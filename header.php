@@ -12,31 +12,42 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146933727-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146933727-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-146933727-2');
-</script>
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '2157837101184733');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=2157837101184733&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-146933727-2');
+	</script>
+	<!-- Facebook Pixel Code -->
+	<script>
+		! function(f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function() {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '2157837101184733');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2157837101184733&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
 </head>
 
 <body <?php body_class('no-js'); ?>>
@@ -69,16 +80,16 @@
 
 					<!-- Top Navigation Menu -->
 					<div class="mobile__nav">
-					<a class="site-logo" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logotyp.svg" alt="Avicii logotyp" width="85"></a>
-					<a href="javascript:void(0);" class="mobile__icon" onclick="mobileFunction()">
-						<span class="menu-mobile__lines"></span>
-					</a>
-					<div id="myLinks">
-						<a  href="#lineup">Lineup</a>
-						<a  href="#foundation">Foundation</a>
-						<a class="button" href="http://www.ticketmaster.se/event/557215" target="_blank">Buy tickets</a>
+						<a class="site-logo" href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logotyp.svg" alt="Avicii logotyp" width="85"></a>
+						<a href="javascript:void(0);" class="mobile__icon" onclick="mobileFunction()">
+							<span class="menu-mobile__lines"></span>
+						</a>
+						<div id="myLinks">
+							<a href="#lineup">Lineup</a>
+							<a href="#foundation">Foundation</a>
+							<a class="button" href="http://www.ticketmaster.se/event/557215" target="_blank">Buy tickets</a>
+						</div>
 					</div>
-				</div>
 					<!-- End smartphone / tablet look -->
 
 					<script>
@@ -102,6 +113,14 @@
 			<div class="container">
 				<img class="top_img" src="<?php echo get_template_directory_uri(); ?>/images/avicii_tribute_concert.png" alt="Avicii tribute concert" width="350">
 			</div>
+		</section>
+		<section>
+
+			<section class="section section__announcement">
+				<div class="container">
+					<img class="top_img" src="<?php echo get_template_directory_uri(); ?>/images/announcement_date.png" alt="Avicii tribute concert date" width="500">
+				</div>
+			</section>
 		</section>
 		<section class="section section__countdown">
 			<div class="container">

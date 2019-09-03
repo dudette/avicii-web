@@ -109,6 +109,17 @@
 		"oAP": "/dist/images/.gitkeep",
 		"oF": 0
 		},
+	"/dist/images/announcement_date.png": {
+		"ft": 32768,
+		"iS": 64002,
+		"oA": 0,
+		"oAP": "/dist/images/announcement_date.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/dist/images/avicii.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -122,6 +133,17 @@
 		"iS": 29180,
 		"oA": 0,
 		"oAP": "/dist/images/avicii_tribute_concert.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/dist/images/final_lineup.png": {
+		"ft": 32768,
+		"iS": 184037,
+		"oA": 0,
+		"oAP": "/dist/images/final_lineup.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1204,6 +1226,17 @@
 		"oAP": "/images/.gitkeep",
 		"oF": 0
 		},
+	"/images/announcement_date.png": {
+		"ft": 32768,
+		"iS": 64002,
+		"oA": 0,
+		"oAP": "/images/announcement_date.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/avicii.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -1217,6 +1250,17 @@
 		"iS": 29180,
 		"oA": 0,
 		"oAP": "/images/avicii_tribute_concert.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/final_lineup.png": {
+		"ft": 32768,
+		"iS": 184037,
+		"oA": 0,
+		"oAP": "/images/final_lineup.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -14,9 +14,19 @@
             transform: none;
         }
     }
+    &.section__announcement {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @media (max-width: 767px) {
+            position: inherit;
+            transform: none;
+        }
+    }
     &.section__countdown {
         position: absolute;
-        top: 60%;
+        top: 80%;
         left: 50%;
         transform: translate(-50%, -50%);
         @media (max-width: 767px) {
