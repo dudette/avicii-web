@@ -114,13 +114,10 @@
 				<img class="top_img" src="<?php echo get_template_directory_uri(); ?>/images/avicii_tribute_concert.png" alt="Avicii tribute concert" width="350">
 			</div>
 		</section>
-		<section>
-
-			<section class="section section__announcement">
-				<div class="container">
-					<img class="top_img" src="<?php echo get_template_directory_uri(); ?>/images/announcement_date.png" alt="Avicii tribute concert date" width="500">
-				</div>
-			</section>
+		<section class="section section__announcement">
+			<div class="container">
+				<img class="top_img" src="<?php echo get_template_directory_uri(); ?>/images/announcement_date.png" alt="Avicii tribute concert date" width="500">
+			</div>
 		</section>
 		<section class="section section__countdown">
 			<div class="container">

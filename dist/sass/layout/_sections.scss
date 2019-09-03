@@ -19,9 +19,17 @@
         top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
+        @media (max-width: 1200px) {
+            img {
+                width: 300px;
+            }
+        }
         @media (max-width: 767px) {
             position: inherit;
             transform: none;
+            img {
+                width: 500px;
+            }
         }
     }
     &.section__countdown {

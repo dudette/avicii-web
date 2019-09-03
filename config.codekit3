@@ -1329,17 +1329,6 @@
 		"oAP": "/images/smoke.mp4",
 		"oF": 0
 		},
-	"/images/top_img.png": {
-		"ft": 32768,
-		"iS": 294222,
-		"oA": 0,
-		"oAP": "/images/top_img.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/video_poster.png": {
 		"ft": 32768,
 		"iS": 3075710,
