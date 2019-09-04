@@ -87,7 +87,7 @@
 						<div id="myLinks">
 							<a href="#lineup">Lineup</a>
 							<a href="#foundation">Foundation</a>
-							<a class="button" href="http://www.ticketmaster.se/event/557215" target="_blank">Buy tickets</a>
+							<a class="button event-btn" href="http://www.ticketmaster.se/event/557215" target="_blank">Buy tickets</a>
 						</div>
 					</div>
 					<!-- End smartphone / tablet look -->
