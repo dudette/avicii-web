@@ -120,14 +120,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/dist/images/avicii.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/images/avicii.mp4",
-		"oF": 0
-		},
 	"/dist/images/avicii_tribute_concert.png": {
 		"ft": 32768,
 		"iS": 29180,
@@ -193,17 +185,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/dist/images/smoke.jpg": {
-		"ft": 16384,
-		"iS": 64056,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/dist/images/smoke.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/dist/images/smoke.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -211,17 +192,6 @@
 		"oA": 0,
 		"oAP": "/dist/images/smoke.mp4",
 		"oF": 0
-		},
-	"/dist/images/top_img.png": {
-		"ft": 32768,
-		"iS": 294222,
-		"oA": 0,
-		"oAP": "/dist/images/top_img.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/dist/images/video_poster.png": {
 		"ft": 32768,
